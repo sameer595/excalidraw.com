@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bar {
+    width: 17px;
+    height: 1px;
+    background-color: #847a7a;
+    margin: 5px 2px;
+}
+
+.middle-bar {
+    padding: 7px;
+    width: auto;
+    height: auto;
+    background-color: #f8f9fa;;
+}
+
+.border>img {
+    height: 20px;
+    width: 20px;
+}
+.hand>img{
+    height: 15px;
+    width: 15px;
+    /* padding: 2px 0px; */
+    margin-left: 2px;
+}
+.hand{
+    margin-left: 2px;
+   
+}
+.vline{
+    height: 22px;
+    width: 1.5px;
+    background-color: #e1d6d6;
+    margin: 4px;
+}
+.num{
+    font-size: 10px;
+    position: absolute;
+    display: flex;
+    height: 0px;
+    margin-left: 18px;
+    margin-top: -12px;
+    color: rgb(167, 175, 175);
+}
+.r-btn{
+    width: 30px;
+    border: none;
+}
+.r-btn>svg{
+   color: rgb(66, 47, 207);
+}
+.r-btn>svg:hover{
+    color: rgb(32, 15, 164);
+ }
+.zoom-out{
+position: relative;
+margin-right: -6px;
+}
+.zoom-in{
+    position: relative;
+    margin-left: -6px;
+}
+.back-btn{
+    margin-right: -6px;
+}
+.footer{
+    margin-top: 500px;
+}
+.zoom-out>img,.zoom-in>img{
+    opacity: 0.5;
+}
+.next-btn>img,.back-btn>img{
+    opacity: 0.5;
+}
+.user-btn>img{
+/* background-color: #fff; */
+}
+.user-btn{
+    background-color: rgb(100, 86, 202) !important;
+    }
+    .user-btn:hover{
+        background-color: rgb(64, 45, 212) !important;
+        }
