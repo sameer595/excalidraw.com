@@ -14,30 +14,35 @@
     padding: 7px;
     width: auto;
     height: auto;
-    background-color: #f8f9fa;;
+    background-color: #f8f9fa;
+   margin-top: 5px;
 }
 
 .border>img {
     height: 20px;
     width: 20px;
 }
-.hand>img{
+
+.hand>img {
     height: 15px;
     width: 15px;
     /* padding: 2px 0px; */
     margin-left: 2px;
 }
-.hand{
+
+.hand {
     margin-left: 2px;
-   
+
 }
-.vline{
+
+.vline {
     height: 22px;
     width: 1.5px;
     background-color: #e1d6d6;
     margin: 4px;
 }
-.num{
+
+.num {
     font-size: 10px;
     position: absolute;
     display: flex;
@@ -46,42 +51,94 @@
     margin-top: -12px;
     color: rgb(167, 175, 175);
 }
-.r-btn{
+
+.r-btn {
     width: 30px;
     border: none;
 }
-.r-btn>svg{
-   color: rgb(66, 47, 207);
+
+.r-btn>svg {
+    color: rgb(66, 47, 207);
 }
-.r-btn>svg:hover{
+
+.r-btn>svg:hover {
     color: rgb(32, 15, 164);
- }
-.zoom-out{
-position: relative;
-margin-right: -6px;
 }
-.zoom-in{
+
+.zoom-out {
+    position: relative;
+    margin-right: -6px;
+}
+
+.zoom-in {
     position: relative;
     margin-left: -6px;
 }
-.back-btn{
+
+.back-btn {
     margin-right: -6px;
 }
-.footer{
-    margin-top: 500px;
+
+.footer {
+    margin-top: 300px;
 }
-.zoom-out>img,.zoom-in>img{
+
+.zoom-out>img,
+.zoom-in>img {
     opacity: 0.5;
 }
-.next-btn>img,.back-btn>img{
+
+.next-btn>img,
+.back-btn>img {
     opacity: 0.5;
 }
-.user-btn>img{
-/* background-color: #fff; */
+
+.user-btn>img {
+    /* background-color: #fff; */
 }
-.user-btn{
+
+.user-btn {
     background-color: rgb(100, 86, 202) !important;
-    }
-    .user-btn:hover{
-        background-color: rgb(64, 45, 212) !important;
-        }
+}
+
+.user-btn:hover {
+    background-color: rgb(64, 45, 212) !important;
+}
+
+.excali-logo {
+    margin: auto;
+    width: auto;
+    height: 50px;
+    margin-top: 140px;
+
+}
+
+.svg-1 {
+    width: 45px;
+    height: 40px;
+    color: rgb(110, 63, 204);
+    margin-right: 7px;
+}
+
+.svg-2 {
+    height: 28.5px;
+    color: rgb(41, 13, 102);
+}
+.all-button>button{
+    color: rgb(187, 179, 179);
+    width: 300px;
+    
+}
+.btn-a>span{
+    float: right;
+}
+.btn-a{
+    margin-bottom: 1px;
+}
+.info-1{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: #bcbcbc;
+    letter-spacing: 2px;
+    
+}
