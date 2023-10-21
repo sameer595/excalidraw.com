@@ -14,8 +14,7 @@
     padding: 7px;
     width: auto;
     height: auto;
-    background-color: #f8f9fa;
-   margin-top: 5px;
+    background-color: #f8f9fa;;
 }
 
 .border>img {
@@ -78,9 +77,8 @@
 .back-btn {
     margin-right: -6px;
 }
-
-.footer {
-    margin-top: 300px;
+.footer{
+    margin-top: 500px;
 }
 
 .zoom-out>img,
@@ -99,46 +97,7 @@
 
 .user-btn {
     background-color: rgb(100, 86, 202) !important;
-}
-
-.user-btn:hover {
-    background-color: rgb(64, 45, 212) !important;
-}
-
-.excali-logo {
-    margin: auto;
-    width: auto;
-    height: 50px;
-    margin-top: 140px;
-
-}
-
-.svg-1 {
-    width: 45px;
-    height: 40px;
-    color: rgb(110, 63, 204);
-    margin-right: 7px;
-}
-
-.svg-2 {
-    height: 28.5px;
-    color: rgb(41, 13, 102);
-}
-.all-button>button{
-    color: rgb(187, 179, 179);
-    width: 300px;
-    
-}
-.btn-a>span{
-    float: right;
-}
-.btn-a{
-    margin-bottom: 1px;
-}
-.info-1{
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-    color: #bcbcbc;
-    letter-spacing: 2px;
-    
-}
+    }
+    .user-btn:hover{
+        background-color: rgb(64, 45, 212) !important;
+        }
